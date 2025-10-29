@@ -1,8 +1,11 @@
 node_modules/
-.DS_Store
 .env
-backend/node_modules/
-frontend/node_modules/
+*.log
+.DS_Store
+
+# frontend build
 frontend/dist/
-.vercel/
-.env.local
+
+# optional editor junk
+.vscode/
+.idea/
